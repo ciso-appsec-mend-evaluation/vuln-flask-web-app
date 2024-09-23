@@ -1,3 +1,11 @@
 {
-  "settingsInheritedFrom": "ciso-appsec-mend-evaluation/whitesource-config@main"
+  "settingsInheritedFrom": "ciso-appsec-mend-evaluation/whitesource-config@main",
+  "scans": {
+    "pathExclusions": [
+      "vulns/**"
+    ]
+  },
+  "scanSettingsSAST": {
+    "enableScan": true
+  }
 }
